@@ -129,7 +129,9 @@ function scoreQuiz() {
 
 
 
-
+function redo() {
+  location.reload();
+}
 
 function displayScore() {
   var returnScore = [goalScore, relationshipScore, learningScore];
