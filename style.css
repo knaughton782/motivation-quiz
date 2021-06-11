@@ -1,0 +1,66 @@
+body {
+    max-width: 900px;
+}
+.center {
+    margin: 5px;
+    text-align: center;
+}
+hr {
+    margin-bottom: 15px;
+}
+.header {
+    margin-top: 0;
+    margin-bottom: 15px;
+    background-color: #ffd463;
+    padding: 15px;
+}
+.quiz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}
+.question {
+    width: 300px;
+    /* min-width: 150px; */
+    margin: 0 25px;
+}
+.sentence {
+    font-weight: bold;
+    padding: 10px;
+}
+#results {
+    display: none;
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    margin: 25px;
+    padding: 25px;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    box-shadow: 12px 12px 2px 1px grey;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.button {
+    /* margin: 30px -15px; */
+    padding: 10px;
+    background-color: #FFD463;
+    border: 1px solid #fcb93e;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#quizScoreHere1, #quizScoreHere2 {
+    font-size: 1.5em;
+    color: rgb(198, 33, 33);
+    padding: 0 0 0 10px;
+}
+input[type="radio"]:checked+label {
+    font-weight: bold;
+}
